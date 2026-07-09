@@ -1,0 +1,9 @@
+on post-fs-data
+    mkdir /data/vendor/hardware_revisions 0755 system system
+
+service hardware_revisions /vendor/bin/sh /vendor/bin/hardware_revisions.sh
+    class late_start
+    user system
+    group system
+    seclabel u:r:hardware_revisions:s0
+    oneshot

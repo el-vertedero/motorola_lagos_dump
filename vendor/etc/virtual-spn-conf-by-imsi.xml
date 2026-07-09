@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByImsi version="1">
+    <virtualSpnOverride imsipattern="2060120601889\d{7}" name="Telenet"/>
+    <virtualSpnOverride imsipattern="2080120801\d{3}67\d{5}" name="Virgin"/>
+    <virtualSpnOverride imsipattern="2080120801156\d{7}" name="1&amp;1"/>
+    <virtualSpnOverride imsipattern="2080120801157\d{7}" name="1&amp;1"/>
+    <virtualSpnOverride imsipattern="2080120801163\d{7}" name="1&amp;1"/>
+    <virtualSpnOverride imsipattern="2080120801164\d{7}" name="1&amp;1"/>
+    <virtualSpnOverride imsipattern="29340293400130\d{6}" name="Ventocom"/>
+    <virtualSpnOverride imsipattern="2320723207718\d{7}" name="HoT"/>
+    <virtualSpnOverride imsipattern="232072320776\d{8}" name="HoT"/>
+    <virtualSpnOverride imsipattern="2320723207799\d{7}" name="HoT"/>
+    <virtualSpnOverride imsipattern="214042140423\d{8}" name="telecable"/>
+</virtualSpnOverridesByImsi>

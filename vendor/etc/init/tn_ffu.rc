@@ -1,0 +1,9 @@
+service tn_ffu /vendor/bin/tn_ffu.sh
+    user root
+    group root system
+    oneshot
+    disabled
+
+on post-fs
+    exec_start tn_ffu
+

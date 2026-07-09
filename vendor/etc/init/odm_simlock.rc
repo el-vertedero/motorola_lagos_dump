@@ -1,0 +1,5 @@
+on property:ro.carrier=vfau && property:ro.vendor.sim_me_lock_mode=
+    setprop ro.vendor.sim_me_lock_mode 3
+
+on property:ro.carrier=* && property:ro.vendor.sim_me_lock_mode=
+    setprop ro.vendor.sim_me_lock_mode 0

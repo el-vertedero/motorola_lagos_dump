@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByEfPnn version="1">
+<virtualSpnOverride mccmncpnn="21406finetwork" name="finetwork"/>
+<virtualSpnOverride mccmncpnn="21406Lowi" name="Lowi"/>
+<virtualSpnOverride mccmncpnn="26203Ortel D" name="Ortel D"/>
+<virtualSpnOverride mccmncpnn="234203" name="3"/>
+<virtualSpnOverride mccmncpnn="23420iD" name="iD"/>
+<virtualSpnOverride mccmncpnn="23430BT" name="BT"/>
+<virtualSpnOverride mccmncpnn="26806UZO" name="UZO"/>
+<virtualSpnOverride mccmncpnn="45406HKBN" name="HKBN"/>
+<virtualSpnOverride mccmncpnn="45406Birdie" name="Birdie"/>
+<virtualSpnOverride mccmncpnn="45406ValueGB" name="ValueGB"/>
+<virtualSpnOverride mccmncpnn="46605GT R" name="GT R"/>
+<virtualSpnOverride mccmncpnn="50503Lebara" name="Lebara"/>
+<virtualSpnOverride mccmncpnn="50503Vodafone AU" name="Vodafone AU"/>
+</virtualSpnOverridesByEfPnn>

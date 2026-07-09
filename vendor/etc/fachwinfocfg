@@ -1,0 +1,93 @@
+# Hardware info configure for Shadow HwInfoQcomQ5003
+
+## Rules Description:
+## '*' is the separator between key and value(s).
+## '|' is the separator between multiple values.
+### Format for a single value : key* value
+### Format for multiple values: key* value1 | value2 | ...
+### NOTE:
+### 1. EMPTY or NULL value is all right;
+### 2. a space is suggested before and after the separator '|'.
+
+
+acc_sensor_mfr*
+adb_sn*/config/usb_gadget/g1/strings/0x409/serialnumber
+ambient_light_mfr*/sys/devices/platform/product-device-info/info_lsensor
+baro_sensor_mfr*
+battery_capacity*/sys/class/power_supply/battery/capacity
+battery_mfr*/sys/devices/platform/product-device-info/info_battery
+battery2_mfr*/sys/ontim_bootinfo/bat_info
+battery_voltage*/sys/class/power_supply/battery/voltage_now
+board_id*/sys/hwinfo/board_id
+cam_back_lens_efuse*
+cam_back_lens_mfr*/sys/devices/platform/product-device-info/info_main1_camera
+cam_back_lens_otp_status*
+cam_depth_lens_efuse*
+cam_depth_lens_mfr*
+cam_depth_lens_otp_status*
+cam_front_lens_efuse*
+cam_front_lens_mfr*/sys/devices/platform/product-device-info/info_front1_camera
+cam_front_lens_otp_status*
+cam_iris_lens_efuse*
+cam_iris_lens_mfr*
+cam_iris_lens_otp_status*
+cam_macro_lens_efuse*
+cam_macro_lens_mfr*
+cam_macro_lens_otp_status*
+cam_tele_lens_efuse*
+cam_tele_lens_mfr*
+cam_tele_lens_otp_status*
+cam_tof_lens_efuse*
+cam_tof_lens_mfr*
+cam_tof_lens_otp_status*
+cam_wide_angle_lens_efuse*
+cam_wide_angle_lens_mfr*
+cam_wide_angle_lens_otp_status*
+charger_ic_mfr*/sys/class/power_supply/primary_chg/model_name
+charger2_ic_mfr*/sys/ontim_bootinfo/slave_charger_info
+cpu_type*/sys/firmware/devicetree/base/firmware/android/hwinfo.chip_name
+cpu_id*/sys/devices/soc0/serial_number
+factory_partition*/dev/block/by-name/proinfo
+fp_mfr*/sys/devices/platform/product-device-info/info_fingerprint
+geo_sensor_mfr*
+gyro_sensor_mfr*/sys/devices/platform/product-device-info/info_gsensor
+g_sensor_mfr*/sys/devices/platform/product-device-info/info_gsensor
+hw_sku*/sys/hwinfo/hw_sku
+hw_version*/sys/firmware/devicetree/base/firmware/android/hwinfo.hwver
+lcd_mfr*/sys/devices/platform/product-device-info/info_lcd
+memory_capacity*/sys/firmware/devicetree/base/firmware/android/hwinfo.ddr_size
+memory_mfr*/sys/firmware/devicetree/base/firmware/android/hardware.ddr_info
+proximity_mfr*/sys/devices/platform/product-device-info/info_psensor
+nfc_mfr*/sys/devices/platform/product-device-info/info_nfc
+power_usb_type*/sys/class/qcom-battery/usb_real_type
+quick_charge_type*/sys/class/qcom-battery/usb_real_type
+receiver_cali_data*
+speaker_cali_data*
+speaker_mfr*/sys/devices/platform/product-device-info/info_audiopa
+speaker_num*
+sar_sensor_mfr*
+sar_cali_ch_value*/mnt/vendor/persist/sensors/registry/registry/icp201xx_0_platform.pressure.fac_cal.bias
+simcard_holder*/sys/devices/platform/product-device-info/info_cardslot
+storage_mfr*/sys/devices/platform/soc/7c4000.sdhci/mmc_host/mmc0/mmc0:0001/name
+storage_capacity*/sys/firmware/devicetree/base/firmware/android/hwinfo.flash_size
+storage_cid*/sys/firmware/devicetree/base/firmware/android/hwinfo.flash_cid
+storage_sn*/sys/devices/platform/soc/7c4000.sdhci/mmc_host/mmc0/mmc0:0001/serial
+storage_life*/sys/devices/platform/soc/7c4000.sdhci/mmc_host/mmc0/mmc0:0001/life_time
+storage_info*/sys/firmware/devicetree/base/firmware/android/hwinfo.flash_info
+emmc_mfr*/sys/firmware/devicetree/base/firmware/android/hardware.storage_info
+tp_mfr*/sys/devices/platform/product-device-info/info_tp
+tp_capacity*/proc/touchscreen/tp_test
+typec_mfr*/sys/devices/platform/product-device-info/info_cc_logic
+type_cc_status*/sys/class/qcom-battery/typec_cc_orientation
+private_partition*/dev/block/by-name/private
+oemowninfo_partition*/dev/block/by-name/oemowninfo
+charge_ic_path*/sys/ontim_bootinfo/main_charger_info
+prox_cal_path*/mnt/vendor/persist/sensors/registry/registry/sip3510_platform.prox.fac_cal
+light_cal_path*/mnt/vendor/persist/sensors/registry/registry/sip3510_platform.als.fac_cal
+barometer_cali_1*/mnt/vendor/persist/sensors/registry/registry/spl07_0_platform.pressure.fac_cal.bias
+barometer_cali_2*/mnt/vendor/persist/sensors/registry/registry/icp201xx_0_platform.pressure.fac_cal.bias
+cam_16_8_path*/mnt/vendor/persist/camera/dualcam_cali.bin
+antenna_connect_path*/sys/hwinfo/cable_gpio
+smart_pin_voltage*/sys/class/power_supply/usb/voltage_now
+smart_pin_current*/sys/class/power_supply/usb/current_now
+smart_pin_avc*/sys/bus/iio/devices/iio:device0/in_voltage_pm6450_smart_adc_therm_input

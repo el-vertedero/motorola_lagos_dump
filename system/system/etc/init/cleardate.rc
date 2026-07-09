@@ -1,0 +1,10 @@
+service cleardate  /system/bin/sh /system/bin/CQATest/cleardate.sh
+    class core
+    user root
+    group system root
+    oneshot
+    disabled
+    seclabel u:r:shell:s0
+
+on property:vendor.clear_batt_first_usage_date=true
+    start cleardate

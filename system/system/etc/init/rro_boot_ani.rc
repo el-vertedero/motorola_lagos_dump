@@ -1,0 +1,6 @@
+on post-fs-data
+    #FEATURE-6716: RRO BOOTANIMATION begin
+    mkdir /data/rro/ 0777 system system
+    chown system system /data/rro/bootanimation.zip
+    restorecon /data/rro/bootanimation.zip
+    #FEATURE-6716: RRO BOOTANIMATION end

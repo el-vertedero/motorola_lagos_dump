@@ -1,0 +1,348 @@
+on property:ro.boot.carrier=none
+    setprop ro.com.google.clientidbase android-motorola
+    setprop ro.com.google.clientidbase.ms android-motorola-rvo3
+    setprop ro.com.google.clientidbase.vs android-motorola-rvo3
+
+# ONTIM BEGIN
+# Add by chongxin.cheng for PBGAM-1411 with FAQ19818
+on property:ro.boot.carrier=amxmx
+   setprop persist.vendor.radio.fd.on.only.r8 1
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-americamovil-{country}
+
+on property:ro.boot.carrier=reteu
+   setprop ro.moto.emea.feature.gms_req true
+   setprop ro.product.brand1 orange
+
+on property:ro.boot.carrier=attmx
+   setprop persist.vendor.radio.fd.on.only.r8 1
+
+on property:ro.boot.carrier=tefmx
+   setprop persist.vendor.radio.fd.on.only.r8 1
+# ONTIM END.
+
+# ONTIM BEGIN
+# Add by chongxin.cheng for PBGAM-1972
+on property:ro.boot.carrier=amxmx
+   setprop ro.feature.telcellclearcode true
+   setprop ro.csc.amazon.partnerid telcelmx
+
+# ONTIM END.
+
+# ONTIM BEGIN
+# Add by chongxin.cheng for PBGAM-2469
+on property:ro.boot.carrier=tigco
+   setprop persist.vendor.data.not.val true
+# ONTIM END.
+
+on property:ro.boot.carrier=amxco
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-americamovil-{country}
+
+#wangying add for amazon PDFCCE-473
+on property:ro.boot.carrier=attmx
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-attmexico-mx-rvc3
+   setprop ro.com.google.clientidbase.vs android-attmexico-mx-rvc3
+   setprop ro.com.google.clientidbase.am ""
+   setprop ro.csc.amazon.partnerid attmx
+
+on property:ro.boot.carrier=amxpe
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-americamovil-{country}
+
+on property:ro.boot.carrier=amxcl
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-americamovil-{country}
+
+on property:ro.boot.carrier=amxla
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-americamovil-{country}
+
+# ONTIM EKLAGOS-190
+on property:ro.boot.carrier=amxar
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-americamovil-{country}
+
+on property:ro.boot.carrier=amxbr
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-americamovil-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-americamovil-{country}
+
+
+on property:ro.boot.carrier=att
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-att-us-rvc3
+   setprop ro.com.google.clientidbase.vs android-att-us-rvc3
+   setprop ro.com.google.clientidbase.am android-att-us
+   setprop ro.com.google.clientidbase.pg android-att-inca
+
+on property:ro.boot.carrier=bwaca
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-bell-ca-revc
+   setprop ro.com.google.clientidbase.vs android-bell-ca-revc
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=bouyfr
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-bouygues-fr-rvc3
+   setprop ro.com.google.clientidbase.vs android-bouygues-fr-rvc3
+   setprop ro.com.google.clientidbase.am ""
+   setprop ro.com.google.clientidbase.cr android-motorola
+
+on property:ro.boot.carrier=spectrum
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-charter-us-rvc3
+   setprop ro.com.google.clientidbase.vs android-charter-us-rvc3
+   setprop ro.com.google.clientidbase.am ""
+   setprop ro.com.google.clientidbase.pg android-charter-inca
+
+on property:ro.boot.carrier=cricket
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-cricket-us-rvc3
+   setprop ro.com.google.clientidbase.vs android-cricket-us-rvc3
+   setprop ro.com.google.clientidbase.am android-cricket
+   setprop ro.com.google.clientidbase.pg android-cricket-inca
+
+on property:ro.boot.carrier=boost
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-dish-us-rvc3
+   setprop ro.com.google.clientidbase.vs android-dish-us-rvc3
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=docomo
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms ""
+   setprop ro.com.google.clientidbase.vs ""
+   setprop ro.com.google.clientidbase.am android-docomo-jp
+   setprop ro.csc.amazon.partnerid docomo
+
+on property:ro.boot.carrier=fi
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-fi
+   setprop ro.com.google.clientidbase.vs android-fi
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=3ie
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-h3g-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-h3g-{country}-rvc3
+   setprop ro.com.google.clientidbase.cr android-motorola
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=windit
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-h3g-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-h3g-{country}-rvc3
+   setprop ro.com.google.clientidbase.cr android-motorola
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=kddi
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-kddi-jp-rvc3
+   setprop ro.com.google.clientidbase.vs android-kddi-jp-rvc3
+   setprop ro.com.google.clientidbase.am android-kddi-jp
+
+on property:ro.boot.carrier=lguplus
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-motorola-rvo3
+   setprop ro.com.google.clientidbase.vs android-motorola-rvo3
+   setprop ro.com.google.clientidbase.am android-lgu-kr
+
+on property:ro.boot.carrier=metropcs
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-mpcs-us-revc
+   setprop ro.com.google.clientidbase.vs android-mpcs-us-revc
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=optus
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-optus-au-rvc3
+   setprop ro.com.google.clientidbase.vs android-optus-au-rvc3
+   setprop ro.com.google.clientidbase.am android-optus-au
+
+on property:ro.boot.carrier=rcica
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-rogers-ca-revc
+   setprop ro.com.google.clientidbase.vs android-rogers-ca-revc
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=altice
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-motorola-rvo3
+   setprop ro.com.google.clientidbase.vs android-motorola-rvo3
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=softbank
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms ""
+   setprop ro.com.google.clientidbase.vs ""
+   setprop ro.com.google.clientidbase.am android-softbank-jp
+
+on property:ro.boot.carrier=dteu
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-dt-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-dt-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-tmobile-{country}
+   setprop ro.com.google.clientidbase.cr android-motorola
+
+on property:ro.boot.carrier=tmo
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-tmus-us-rvc3
+   setprop ro.com.google.clientidbase.vs android-tmus-us-rvc3
+   setprop ro.com.google.clientidbase.am ""
+   setprop ro.com.google.clientidbase.pg android-tmus-inca
+
+on property:ro.boot.carrier=o2de
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-tef-de-rvc2
+   setprop ro.com.google.clientidbase.vs android-tef-de-rvc2
+   setprop ro.com.google.clientidbase.am android-tef-de
+   setprop ro.com.google.clientidbase.cr android-motorola
+   setprop ro.product.gms_premier_tier false
+
+on property:ro.boot.carrier=tefes
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-tef-es-rvc2
+   setprop ro.com.google.clientidbase.vs android-tef-es-rvc2
+   setprop ro.com.google.clientidbase.am android-tef-es
+   setprop ro.com.google.clientidbase.cr android-motorola
+   setprop ro.product.gms_premier_tier false
+
+on property:ro.boot.carrier=telstra
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-telstra-au-rvc3
+   setprop ro.com.google.clientidbase.vs android-telstra-au-rvc3
+   setprop ro.com.google.clientidbase.am android-telstra-au
+   setprop ro.com.google.clientidbase.wal android-telstra-au
+
+on property:ro.boot.carrier=tkpca
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-telus-ca-revc
+   setprop ro.com.google.clientidbase.vs android-telus-ca-revc
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=timbr
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-tim-br-revc
+   setprop ro.com.google.clientidbase.vs android-tim-br-revc
+   setprop ro.com.google.clientidbase.am ""
+
+on property:ro.boot.carrier=tracfone
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-tracfone-us-rvc3
+   setprop ro.com.google.clientidbase.vs android-tracfone-us-rvc3
+   setprop ro.com.google.clientidbase.am android-tracfone-us
+   setprop ro.com.google.clientidbase.pg android-tracfone-inca
+
+on property:ro.boot.carrier=usc
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-uscellular-us-rvc3
+   setprop ro.com.google.clientidbase.vs android-uscellular-us-rvc3
+   setprop ro.com.google.clientidbase.am ""
+   setprop ro.com.google.clientidbase.pg android-uscellular-inca
+
+on property:ro.boot.carrier=vzw
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-verizon-us-rvc3
+   setprop ro.com.google.clientidbase.vs android-verizon-us-rvc3
+   setprop ro.com.google.clientidbase.am android-verizon
+   setprop ro.com.google.clientidbase.pg android-verizon-inca
+
+on property:ro.boot.carrier=vfau
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-vf-au-rvc2
+   setprop ro.com.google.clientidbase.vs android-vf-au-rvc2
+   setprop ro.com.google.clientidbase.am android-vf-au
+   setprop ro.product.gms_premier_tier false
+
+##
+on property:ro.boot.carrier=eegb
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-ee-uk-rvc3
+   setprop ro.com.google.clientidbase.vs android-ee-uk-rvc3
+   setprop ro.com.google.clientidbase.cr android-motorola
+   setprop ro.com.google.clientidbase.am ""
+
+#daming.cao,PBGAM-4072 gang.an,timit amazon
+on property:ro.boot.carrier=timit
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.am ""
+   setprop ro.com.google.clientidbase.ms android-tim-it-rvc3
+   setprop ro.com.google.clientidbase.vs android-tim-it-rvc3
+   setprop ro.com.google.clientidbase.cr android-motorola
+   setprop ro.csc.amazon.partnerid timit
+
+on property:ro.boot.carrier=o2gb
+    setprop ro.com.google.clientidbase.ms android-tef-gb-rvc2
+    setprop ro.com.google.clientidbase.vs android-tef-gb-rvc2
+    setprop ro.com.google.clientidbase.am android-tef-gb
+    setprop ro.com.google.clientidbase.cr android-motorola
+    setprop ro.product.gms_premier_tier false
+
+on property:ro.boot.carrier=oraeu
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-orange-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-orange-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-orange-{country}
+   setprop ro.com.google.clientidbase.cr android-motorola
+   setprop ro.product.brand1 orange
+
+on property:ro.boot.carrier=vfeu
+   setprop ro.com.google.clientidbase.ms android-vf-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-vf-{country}-rvc3
+   setprop ro.com.google.clientidbase.am android-vf-{country}
+   setprop ro.com.google.clientidbase.cr android-motorola
+   
+on property:persist.sys.channel_id=windit
+   setprop ro.csc.amazon.partnerid 3it
+
+on property:ro.boot.carrier=reteu
+	setprop ro.moto.emea.feature.gms_req true
+
+#wangying add for EKJAVA-190
+on property:ro.boot.carrier=vfau
+   setprop ro.csc.amazon.partnerid vfau
+   
+#yabin.ling dd for EKLAMU-9180
+on property:ro.boot.carrier=3gb
+   setprop ro.com.google.clientidbase.ms android-h3g-{country}-rvc3
+   setprop ro.com.google.clientidbase.vs android-h3g-{country}-rvc3
+   setprop ro.com.google.clientidbase.cr android-motorola
+   setprop ro.com.google.clientidbase.am ""
+   setprop ro.csc.amazon.partnerid 3uk
+
+# must be last one for the default setting
+on property:ro.vendor.clientid.default=true
+   setprop ro.com.google.clientidbase android-motorola
+   setprop ro.com.google.clientidbase.ms android-motorola-rvo3
+   setprop ro.com.google.clientidbase.vs android-motorola-rvo3
+
+# dongwei.lv add for PDFCCE-653
+on property:ro.carrier=*
+   setprop ro.oem.key1 ${ro.carrier}
+
+on property:ro.product.lenovo_version=true
+        setprop ro.product.white_label true
+        
+on property:ro.pt.lenovo_version=true
+        setprop ro.product.white_label true
+		
+on property:ro.boot.hardware.sku=XT2423-3
+    setprop setupwizard.feature.predeferred_enabled true
+	
+on property:ro.boot.hardware.sku=XT2425-4
+    setprop setupwizard.feature.predeferred_enabled true

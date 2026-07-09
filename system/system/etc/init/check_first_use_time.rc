@@ -1,0 +1,28 @@
+
+service checkFstUseTime /system/bin/sh /system/bin/check_first_use_time.sh
+    class core
+    user root
+    group system root
+    oneshot
+    disabled
+    seclabel u:r:shell:s0
+
+service writeFacOwned /system/bin/sh /system/bin/write_factory_owned.sh
+    class core
+    user root
+    group system root
+    oneshot
+    disabled
+    seclabel u:r:shell:s0
+
+on property:sys.odm.check.batt_first_use_date=*
+    start checkFstUseTime
+
+on property:ro.organization_owned=*
+    start writeFacOwned
+
+on init
+    start checkFstUseTime
+
+on init
+    start writeFacOwned

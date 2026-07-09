@@ -1,0 +1,38 @@
+	
+service ontim_heapandlmk_setup /system/bin/tn_system_performance.sh "ontim_heapandlmk_setup"
+    class core
+    user root
+    group root system
+    disabled
+    oneshot
+
+on early-init
+    exec_start ontim_heapandlmk_setup
+	
+    setprop dalvik.vm.heapminfree ${persist.sys.ontim.dalvik.vm.heapminfree}
+    setprop dalvik.vm.heapmaxfree ${persist.sys.ontim.dalvik.vm.heapmaxfree}
+    setprop dalvik.vm.heapstartsize ${persist.sys.ontim.dalvik.vm.heapstartsize}
+    setprop dalvik.vm.heapsize ${persist.sys.ontim.dalvik.vm.heapsize}
+    setprop dalvik.vm.heapgrowthlimit ${persist.sys.ontim.dalvik.vm.heapgrowthlimit}
+    setprop dalvik.vm.heaptargetutilization ${persist.sys.ontim.dalvik.vm.heaptargetutilization}
+    setprop dalvik.vm.madvise.artfile.size ${persist.sys.ontim.art}
+    setprop dalvik.vm.madvise.odexfile.size ${persist.sys.ontim.odex}
+    setprop dalvik.vm.madvise.vdexfile.size ${persist.sys.ontim.vdex}
+	
+    setprop ro.lmk.psi_complete_stall_ms ${persist.sys.ontim.lmk.psi_complete_stall_ms}
+    setprop ro.lmk.swap_free_low_percentage ${persist.sys.ontim.lmk.swap_free_low_percentage}
+    setprop ro.lmk.thrashing_limit ${persist.sys.ontim.lmk.thrashing_limit}
+    setprop ro.lmk.thrashing_limit_decay ${persist.sys.ontim.lmk.thrashing_limit_decay}
+    setprop ro.lmk.swap_util_max ${persist.sys.ontim.lmk.swap_util_max}
+    setprop ro.lmk.kill_timeout_ms ${persist.sys.ontim.lmk.kill_timeout_ms}
+    setprop ro.lmk.kill_heaviest_task ${persist.sys.ontim.lmk.kill_heaviest_task}
+    setprop ro.lmk.downgrade_pressure ${persist.sys.ontim.lmk.downgrade_pressure}
+
+        
+#on property:sys.boot_completed=1
+#   setprop sys.sysctl.extra_free_kbytes ${persist.sys.ontim.extra_free_kbytes}
+   
+   
+   
+
+

@@ -1,0 +1,11 @@
+PlatformVendor:MTK
+LogToolPackage:com.debug.loggerui
+LogToolMainActivity:com.debug.loggerui.MainActivity
+LogFolderPath:/data/debuglogger/
+UTFolderName:utlog
+NeedClearOriginalLog:true
+UseCommand:true
+ExtraDropBoxTags:CALL_DROP,CALL_ORIG_FAILURE,ONTIM_DATA_STALL,CALL_DROP_NW,CALL_ORIG_FAIL_NW,CALL_PERF_STATS_SUCCESS
+IgnoredDropBoxTags:system_server_lowmem
+IgnoreScreenOnTimeWhenCharging:true
+AutoReportLogBugreport:Crash

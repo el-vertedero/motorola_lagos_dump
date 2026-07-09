@@ -1,0 +1,5 @@
+<config>
+    <install-in-user-type package="com.indus.appstore">
+        <install-in user-type="SYSTEM"/>
+    </install-in-user-type>
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="id.mjs.etalaseapp" default_action="disable" version="1">
+        <criteria action="enable" channel="retid"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

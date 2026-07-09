@@ -1,0 +1,14 @@
+# lagos_g-user 15 VVOBS35.78-158-2 a382f3 release-keys
+- manufacturer: motorola
+- platform: mt6768
+- codename: lagos
+- flavor: lagos_sys-user
+- release: 15
+- id: VVOBS35.78-158-2
+- incremental: a382f3
+- tags: release-keys
+- fingerprint: motorola/lagos_g/lagos:15/VVOBS35.78-158-2/a382f3:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: lagos_g-user-15-VVOBS35.78-158-2-a382f3-release-keys
+- repo: motorola_lagos_dump

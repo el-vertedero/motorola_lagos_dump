@@ -1,0 +1,9 @@
+product/priv-app/Messages/Messages.apk.zst
+product/priv-app/GmsCore/GmsCore.apk.zst
+product/app/YouTube/YouTube.apk.zst
+product/app/TrichromeLibrary64/TrichromeLibrary64.apk.zst
+product/app/Gmail2/Gmail2.apk.zst
+product/app/Maps/Maps.apk.zst
+product/app/Photos/Photos.apk.zst
+vendor/etc/camera/vidhance.lic.zst
+system/system/etc/logo.img.zst
